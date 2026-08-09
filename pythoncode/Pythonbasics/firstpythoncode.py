@@ -19,7 +19,7 @@ a = 10
 s = ""
 
 for i in range(1, a +1):
-    s += str(i) + " "
+    s += str(i) + " " # += defines concatenation of strings and here we convert i into string first and add a space after it to separate the numbers
 
 print(s)
 
